@@ -11,9 +11,9 @@
   <body>
     <div id="tswcontainer">
       <div id="tswheader">
-        <!-- start of header section: insert your logo, etc, here -->
-        <p> <img src="images/download.png" alt="it's a trianbgle" title="triangle"
-            style="width: 93px; height: 105px;">Howdy </p>
+        <!-- start of header section: insert your logo, etc, here --> <br>
+        <a href="index.html"><img src="images/IMG_20230602_163641185.jpg" alt=""
+            title="boat" style="width: 130px; height: 173px;"></a>Howdy <br>
         <p>&nbsp;</p>
         <!-- end of header section: insert your logo, etc, above this line --> </div>
       <div id="tswcontent">
