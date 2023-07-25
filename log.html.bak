@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Boat</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="navbar.css">
+  </head>
+  <body>
+    <div id="tswcontainer">
+      <div id="tswheader">
+        <!-- start of header section: insert your logo, etc, here --> <br>
+        <a href="index.html"><img src="images/IMG_20230602_163641185.jpg" alt=""
+            title="boat" style="width: 130px; height: 173px;"></a> Howdy <br>
+        <p>&nbsp;</p>
+        <!-- end of header section: insert your logo, etc, above this line --> </div>
+      <div id="tswcontent">
+        <div>
+          <!-- start of content column: insert your content here -->
+          <h1><br>
+          </h1>
+          <h2>Here are the different places it has sailed</h2>
+          <a href="#mystic"><img src="images/mystic.jpg" alt="" title="mystic lake"
+              style="width: 215px; height: 122px;"></a>Mystic Lakes<br>
+          <hr>
+          <p> <a href="#charles"><img src="images/charles.jpg" alt="" title="charles river"
+                style="width: 216px; height: 144px;"></a>Charles river </p>
+          <hr>
+          <p><a href="#caspian"><img src="images/caspian.jpg" alt="" title="caspian lake"
+                style="width: 216px; height: 161px;"></a>Caspian Lake</p>
+          <hr> </div>
+        <div><br>
+        </div>
+        <a href="#harbor"><img src="images/boston.jpg" alt="" title="boston harbor"
+            style="width: 222px; height: 132px;"></a>Boston Harbor
+        <hr> </div>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+      <div><br>
+      </div>
+      <div id="tswsidecol">
+        <div id="tswsideproper">
+          <!-- start of side column: insert your navigation menu, etc, here -->
+          <div id="tswcssbuttons">
+            <ul>
+              <li><a href="https://users.wpi.edu/%7Eaborggaard/">home</a></li>
+              <li><a href="https://users.wpi.edu/%7Eaborggaard/construction.html">construction</a></li>
+              <li><a href="https://users.wpi.edu/%7Eaborggaard/log.html">voyages</a></li>
+            </ul>
+          </div>
+          <!-- end of side column: put your navigation menu, etc, above this line -->
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+      <div id="places">
+        <p><br>
+        </p>
+        <h2 id="mystic"> Mystic Lakes </h2>
+        <p> my words go here i guess </p>
+        <p><br>
+        </p>
+        <h2 id="charles"> Charles river </h2>
+        <p> my words go here i guess </p>
+        <p><br>
+        </p>
+        <h2 id="caspian"> Caspian Lake </h2>
+        <p> This is a medium sized lake in the middle of Vermont </p>
+        <p><br>
+        </p>
+        <h2 id="harbor"> Boston Harbor </h2>
+        <p> Scary af </p>
+        <p><br>
+        </p>
+      </div>
+      <div id="tswfooter">
+        <!-- start of footer section: insert your copyright notice, etc, here -->
+        <p><br>
+        </p>
+        <!-- end of footer section: insert your copyright notice, etc, above this line -->
+      </div>
+    </div>
+  </body>
+</html>

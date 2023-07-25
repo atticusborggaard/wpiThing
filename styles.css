@@ -21,7 +21,7 @@ div#tswsidecol {
   float: right;
   width: 20%;
   color: black;
-  background-color: fuchsia;
+  background-color: #e2edf7;
 }
 
 div#tswcontent {
@@ -48,7 +48,7 @@ div#tswcontproper {
 }
 
 div#tswcontainer {
-  background-color: black;
+  background-color: #e2edf7;
 }
 
 div#tswsideproper, div#tswothersideproper {
@@ -80,6 +80,6 @@ p {
 }
 
 div {
-  color: #8f6cc8 !important;
+  color: #010101 !important;
 }
 
