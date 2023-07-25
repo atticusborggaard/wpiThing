@@ -3,6 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Boat</title>
+    <link rel="icon" type="image/x-icon" href="images/plane.png">
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,7 +89,7 @@
         <p> This is a medium sized lake in the middle of Vermont, however it had
           some of the highest winds I have ever sailed it in</p>
         <h2 id="harbor"> Boston Harbor </h2>
-        <p> Scary af&nbsp;<img src="images/IMG_20230720_132629832.jpg" alt="" title="at castle island"><img
+        <p>A little scary<img src="images/IMG_20230720_132629832.jpg" alt="" title="at castle island"><img
 
             src="images/IMG_20230720_135121887.jpg" alt="" title="upsidedown ig"
 
@@ -103,5 +104,6 @@
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
       </div>
     </div>
+    
   </body>
 </html>
