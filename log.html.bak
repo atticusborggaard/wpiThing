@@ -13,7 +13,8 @@
     <div id="tswcontainer">
       <div id="tswheader">
         <!-- start of header section: insert your logo, etc, here --> <br>
-        <a href="index.html"><img src="images/IMG_20230602_163641185.jpg" alt=""
+        <a href="index.html"><img src="images/IMG_20230602_163641185.jpg" alt=""
+
             title="boat" style="width: 130px; height: 173px;"></a> Howdy <br>
         <p>&nbsp;</p>
         <!-- end of header section: insert your logo, etc, above this line --> </div>
@@ -23,18 +24,22 @@
           <h1><br>
           </h1>
           <h2>Here are the different places it has sailed</h2>
-          <a href="#mystic"><img src="images/mystic.jpg" alt="" title="mystic lake"
+          <a href="#mystic"><img src="images/mystic.jpg" alt="" title="mystic lake"
+
               style="width: 215px; height: 122px;"></a>Mystic Lakes<br>
           <hr>
-          <p> <a href="#charles"><img src="images/charles.jpg" alt="" title="charles river"
+          <p> <a href="#charles"><img src="images/charles.jpg" alt="" title="charles river"
+
                 style="width: 216px; height: 144px;"></a>Charles river </p>
           <hr>
-          <p><a href="#caspian"><img src="images/caspian.jpg" alt="" title="caspian lake"
+          <p><a href="#caspian"><img src="images/caspian.jpg" alt="" title="caspian lake"
+
                 style="width: 216px; height: 161px;"></a>Caspian Lake</p>
           <hr> </div>
         <div><br>
         </div>
-        <a href="#harbor"><img src="images/boston.jpg" alt="" title="boston harbor"
+        <a href="#harbor"><img src="images/boston.jpg" alt="" title="boston harbor"
+
             style="width: 222px; height: 132px;"></a>Boston Harbor
         <hr> </div>
       <div><br>
@@ -54,9 +59,9 @@
           <!-- start of side column: insert your navigation menu, etc, here -->
           <div id="tswcssbuttons">
             <ul>
-              <li><a href="https://users.wpi.edu/%7Eaborggaard/">home</a></li>
-              <li><a href="https://users.wpi.edu/%7Eaborggaard/construction.html">construction</a></li>
-              <li><a href="https://users.wpi.edu/%7Eaborggaard/log.html">voyages</a></li>
+              <li><a href="index.html">home</a></li>
+              <li><a href="construction.html">construction</a></li>
+              <li><a href="log.html">voyages</a></li>
             </ul>
           </div>
           <!-- end of side column: put your navigation menu, etc, above this line -->
@@ -67,19 +72,27 @@
         <p><br>
         </p>
         <h2 id="mystic"> Mystic Lakes </h2>
-        <p> my words go here i guess </p>
-        <p><br>
+        <p>This was the very first place I ever sailed the Poxie. It is a
+          secluded lake in Medford. There was light wind, but I gained enough
+          confidence to move on to the Charles river</p>
+        <p><img src="images/PXL_20230610_165859262.jpg" alt="" title="me and my bro">
         </p>
         <h2 id="charles"> Charles river </h2>
-        <p> my words go here i guess </p>
-        <p><br>
-        </p>
+        The largest freshwater sailing place in boston. Here I have sailed many
+        times, once dragging the Poxie 3 miles from Somerville on the back of a
+        RadioFlyer wagon<br>
+        <img src="images/PXL_20230619_195514417.jpg" alt="" title="boston"><img
+
+          src="images/IMG_20230704_140112857.jpg" alt="" title="on a wagon">
         <h2 id="caspian"> Caspian Lake </h2>
-        <p> This is a medium sized lake in the middle of Vermont </p>
-        <p><br>
-        </p>
+        <p> This is a medium sized lake in the middle of Vermont, however it had
+          some of the highest winds I have ever sailed it in</p>
         <h2 id="harbor"> Boston Harbor </h2>
-        <p> Scary af </p>
+        <p> Scary af&nbsp;<img src="images/IMG_20230720_132629832.jpg" alt="" title="at castle island"><img
+
+            src="images/IMG_20230720_135121887.jpg" alt="" title="upsidedown ig"
+
+            id="bostonpic"></p>
         <p><br>
         </p>
       </div>

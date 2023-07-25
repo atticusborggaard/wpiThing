@@ -7,6 +7,7 @@
     <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="navbar.css">
   </head>
   <body>
     <div id="tswcontainer">
@@ -40,8 +41,13 @@
       <div id="tswsidecol">
         <div id="tswsideproper">
           <!-- start of side column: insert your navigation menu, etc, here -->
-          <p> Placeholder content for the side column: please replace this with
-            your real stuff. </p>
+          <div id="tswcssbuttons">
+            <ul>
+              <li><a href="https://users.wpi.edu/%7Eaborggaard/">home</a></li>
+              <li><a href="construction.html">construction</a></li>
+              <li><a href="log.html">voyages</a></li>
+            </ul>
+          </div>
           <!-- end of side column: put your navigation menu, etc, above this line -->
         </div>
       </div>
