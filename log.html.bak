@@ -12,26 +12,30 @@
   </head>
   <body>
     <div id="tswcontainer">
-      <div id="tswheader">
-        <!-- start of header section: insert your logo, etc, here --> <br>
-        <a href="index.html"><img src="images/IMG_20230602_163641185.jpg" alt=""
+      <div id="topstuff">
+        <div id="tswheader">
+          <!-- start of header section: insert your logo, etc, here --> <br>
+          <a href="index.html"><img src="images/IMG_20230602_163641185.jpg" alt=""
 
-            title="boat" style="width: 130px; height: 173px;"></a> Howdy <br>
-        <p>&nbsp;</p>
-        <!-- end of header section: insert your logo, etc, above this line --> </div>
+              title="boat" style="width: 88px; height: 118px;"></a> Howdy
+          <!-- end of header section: insert your logo, etc, above this line -->
+        </div>
+        <div id="banner">
+          <h1>Voyages</h1>
+        </div>
+      </div>
       <div id="tswcontent">
         <div>
           <!-- start of content column: insert your content here -->
-          <h1><br>
-          </h1>
-          <h2>Here are the different places it has sailed</h2>
+          <h2>Here are the different places I have sailed</h2>
           <a href="#mystic"><img src="images/mystic.jpg" alt="" title="mystic lake"
 
               style="width: 215px; height: 122px;"></a>Mystic Lakes<br>
           <hr>
-          <p> <a href="#charles"><img src="images/charles.jpg" alt="" title="charles river"
+          <p class="center"> <a href="#charles"><img src="images/charles.jpg" alt=""
 
-                style="width: 216px; height: 144px;"></a>Charles river </p>
+                title="charles river" style="width: 216px; height: 144px;">Charles
+              river</a> </p>
           <hr>
           <p><a href="#caspian"><img src="images/caspian.jpg" alt="" title="caspian lake"
 
@@ -43,18 +47,6 @@
 
             style="width: 222px; height: 132px;"></a>Boston Harbor
         <hr> </div>
-      <div><br>
-      </div>
-      <div><br>
-      </div>
-      <div><br>
-      </div>
-      <div><br>
-      </div>
-      <div><br>
-      </div>
-      <div><br>
-      </div>
       <div id="tswsidecol">
         <div id="tswsideproper">
           <!-- start of side column: insert your navigation menu, etc, here -->
@@ -104,6 +96,5 @@
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
       </div>
     </div>
-    
   </body>
 </html>

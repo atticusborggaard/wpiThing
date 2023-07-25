@@ -3,6 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Boat</title>
+    <link rel="icon" type="image/x-icon" href="images/plane.png">
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +30,9 @@
           </span></div>
         <div><span style="font-family: &quot;Arial&quot;,&quot;Helvetica&quot;,&quot;sans-serif&quot;;">Then
             it turned into a boat<br>
-          </span>
+          </span> <iframe src="index.html" title="Embedded Page Title" height="””"
+
+            width="””"></iframe>
           <p>&nbsp;</p>
           <!-- end of content column: put your content above this line --> </div>
       </div>
