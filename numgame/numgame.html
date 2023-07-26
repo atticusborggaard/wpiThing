@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>number Game. the one. the only.</title>
-    <script src="numgame.js"></script>
+    <link rel="stylesheet" href="numgame.css"> </link>
+   
 </head>
 <body onLoad="loadGame()">
     <h1>
         The number one number game
     </h1>
-    <p> guess thi number, it is between 0 and 1000!</p>
-    <label> guess: </label>
+    <p> guess this number, it is between 0 and 1000!</p>
+    <label id="lable"> Guess: </label>
     <input id="guess" type="number" min="0">
     <button onClick="makeGuess()"> guess</button>
 
     <br>
 
     <p id="report"> start of report</p>
+    <script src="numgame.js"></script>
+    
 </body>
 </html>

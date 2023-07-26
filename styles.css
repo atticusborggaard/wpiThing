@@ -71,7 +71,7 @@ h1{
 div#banner {
 	border-radius: 5px;
   background-color: powderblue;
-  width: 70%;
+  width: 80%;
   padding-left:5%;
   padding-top: 0px;
 
@@ -81,7 +81,7 @@ div#banner {
 div#tswheader {
   color: black;
   /*background-color: white;*/
-  width: 12%;
+  width: 6%;
   float: left;
 }
 
@@ -96,7 +96,7 @@ div#tswfooter {
 }
 
 #tswheader {
-  padding: 4%;
+  padding: 2%;
 }
 
 p {

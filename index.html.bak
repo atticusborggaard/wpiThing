@@ -13,14 +13,12 @@
   <body>
     <div id="tswcontainer">
       <div id="topstuff">
-        <div id="tswheader">
-          <!-- start of header section: insert your logo, etc, here --> <br>
-          <a href="index.html"><img src="images/IMG_20230602_163641185.jpg" alt=""
-              title="boat" style="width: 88px; height: 118px;"></a> Howdy
+        <div id="tswheader"> <a href="index.html"><img src="images/IMG_20230602_163641185.jpg"
+              alt="" title="boat"></a> Howdy
           <!-- end of header section: insert your logo, etc, above this line -->
         </div>
         <div id="banner">
-          <h1> 'Poxie </h1>
+          <h1>'Poxie: the webiste</h1>
         </div>
       </div>
       <div id="tswcontproper">
@@ -45,8 +43,7 @@
         <div id="tswfooter">
           <hr>
           <!-- start of footer section: insert your copyright notice, etc, here -->
-          <p> Placeholder content for the footer: please replace these words
-            with your real content. </p>
+          <p>This is just a website</p>
           <!-- end of footer section: insert your copyright notice, etc, above this line -->
         </div>
       </div>
