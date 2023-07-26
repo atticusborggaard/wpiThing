@@ -13,11 +13,9 @@
   <body>
     <div id="tswcontainer">
       <div id="topstuff">
-        <div id="tswheader">
-          <!-- start of header section: insert your logo, etc, here --> <br>
-          <a href="index.html"><img src="images/IMG_20230602_163641185.jpg" alt=""
+        <div id="tswheader"> <a href="index.html"><img src="images/IMG_20230602_163641185.jpg"
 
-              title="boat" style="width: 88px; height: 118px;"></a> Howdy
+              alt="" title="boat"></a> Howdy
           <!-- end of header section: insert your logo, etc, above this line -->
         </div>
         <div id="banner">
@@ -28,24 +26,31 @@
         <div>
           <!-- start of content column: insert your content here -->
           <h2>Here are the different places I have sailed</h2>
-          <a href="#mystic"><img src="images/mystic.jpg" alt="" title="mystic lake"
+          <p class="cent"> <a href="#mystic"><img src="images/mystic.jpg" alt=""
 
-              style="width: 215px; height: 122px;"></a>Mystic Lakes<br>
+                title="mystic lake"><br>
+            </a></p>
+          <p class="cent"><a href="#mystic">Mystic Lakes</a></p>
+          <br>
           <hr>
-          <p class="center"> <a href="#charles"><img src="images/charles.jpg" alt=""
+          <p class="cent"> <a href="#charles"><img src="images/charles.jpg" alt=""
 
-                title="charles river" style="width: 216px; height: 144px;">Charles
-              river</a> </p>
+                title="charles river"><br>
+            </a></p>
+          <p class="cent"><a href="#charles">Charles river</a> </p>
           <hr>
-          <p><a href="#caspian"><img src="images/caspian.jpg" alt="" title="caspian lake"
+          <p class="cent"><a href="#caspian"><img src="images/caspian.jpg" alt=""
 
-                style="width: 216px; height: 161px;"></a>Caspian Lake</p>
+                title="caspian lake"><br>
+            </a></p>
+          <p class="cent"><a href="#caspian">Caspian Lake</a></p>
           <hr> </div>
         <div><br>
         </div>
-        <a href="#harbor"><img src="images/boston.jpg" alt="" title="boston harbor"
-
-            style="width: 222px; height: 132px;"></a>Boston Harbor
+        <a class="cent" href="#harbor"><img src="images/boston.jpg" alt="" title="boston harbor"><br>
+        </a> <a class="cent" href="#harbor">
+          <p class="cent"> Boston Harbor</p>
+        </a>
         <hr> </div>
       <div id="tswsidecol">
         <div id="tswsideproper">
