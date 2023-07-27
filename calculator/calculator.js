@@ -24,6 +24,26 @@ function subtract() {
     console.log(result.innerHTML);
     history.innerHTML += one + ` - ` + two + ` = ` + result.innerHTML + `<br>`;
 }
+function multiply() {
+    one = parseFloat(first.value);
+    two = parseFloat(second.value);
+    console.log(one);
+    result.innerHTML = `${one * two}`;
+    console.log(first.innerHTML);
+    console.log(second);
+    console.log(result.innerHTML);
+    history.innerHTML += one + ` * ` + two + ` = ` + result.innerHTML + `<br>`;
+}
+function devide() {
+    one = parseFloat(first.value);
+    two = parseFloat(second.value);
+    console.log(one);
+    result.innerHTML = `${one / two}`;
+    console.log(first.innerHTML);
+    console.log(second);
+    console.log(result.innerHTML);
+    history.innerHTML += one + ` / ` + two + ` = ` + result.innerHTML + `<br>`;
+}
 
 function bang() {
     one = parseFloat(first.value);
@@ -58,13 +78,27 @@ function factor() {
             primes[index++] = i;
         }
     }
+    let lastone = false;
     while (one > 1) {
+        for (let i = 0; i < primes.length; i++) {
+            if (one == primes[i]) {
+                one = one / primes[i];
+                history.innerHTML += primes[i];
+                lastone = true;
+                break;
+            }
+        }
+        if (lastone){
+            break;
+        }
         for (let i = 0; i < primes.length; i++) {
             if (one % primes[i] == 0) {
                 one = one / primes[i];
-                history.innerHTML += primes[i] + ` * `
+                history.innerHTML += primes[i] + ` * `;
+                break;
             }
         }
+        
     }
     history.innerHTML += `<br>`
 }
