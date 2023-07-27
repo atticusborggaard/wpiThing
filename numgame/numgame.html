@@ -1,26 +1,70 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>number Game. the one. the only.</title>
-    <link rel="stylesheet" href="numgame.css"> </link>
-   
+    <title>The Frog Place</title>
+    <script src="intro.js"></script>
+    <link rel="stylesheet" href="intro.css">
+    <link rel="stylesheet" type="text/css" media="all" href="../styles.css">
+    <link type="text/css" rel="stylesheet" href="../navbar.css">
 </head>
+
 <body onLoad="loadGame()">
-    <h1>
-        The number one number game
-    </h1>
-    <p> guess this number, it is between 0 and 1000!</p>
-    <label id="lable"> Guess: </label>
-    <input id="guess" type="number" min="0">
-    <button onClick="makeGuess()"> guess</button>
-
-    <br>
-
-    <p id="report"> start of report</p>
-    <script src="numgame.js"></script>
-    
+    <div id="tswcontainer">
+        <div id="topstuff">
+            <div id="tswheader"> <a href="../index.html"><img src="../images/IMG_20230602_163641185.jpg" alt=""
+                        title="boat"></a>
+                Howdy
+                <!-- end of header section: insert your logo, etc, above this line -->
+            </div>
+            <div id="banner">
+                <h1> The number one number game </h1>
+            </div>
+        </div>
+        <div id="tswcontent">
+            
+                <h1>
+                   
+                </h1>
+                <p> guess this number, it is between 0 and 1000!</p>
+                <label id="lable"> Guess: </label>
+                <input id="guess" type="number" min="0">
+                <button onClick="makeGuess()"> guess</button>
+            
+                <br>
+            
+                <p id="report"> start of report</p>
+                <script src="numgame.js"></script>
+                
+        </div>
+        <div id="tswsidecol">
+            <div id="tswsideproper">
+                <!-- start of side column: insert your navigation menu, etc, here -->
+                <div id="tswcssbuttons">
+                    <ul>
+                        <li><a href="../index.html">home</a></li>
+                        <li><a href="../construction.html">construction</a></li>
+                        <li><a href="../log.html">voyages</a></li>
+                        <li><a href="../otherstuff.html">other stuff</a></li>
+                    </ul>
+                </div>
+                <!-- end of side column: put your navigation menu, etc, above this line -->
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="tswfooter">
+            <!-- start of footer section: insert your copyright notice, etc, here -->
+            <p>just a website<br>
+            </p>
+            <!-- end of footer section: insert your copyright notice, etc, above this line -->
+        </div>
+    </div>
 </body>
+
 </html>
