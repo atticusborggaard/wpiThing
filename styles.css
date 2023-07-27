@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #e2edf7;
 }
 .cent{
   display: block;
@@ -8,7 +9,9 @@ margin-right: auto;
 width: 30%;
 text-align: center;
 }
-
+.smol{
+  width: 40%;
+}
 img {
   max-width: 100%;
   /*width: auto;
@@ -57,7 +60,7 @@ div#tswcontproper {
 }
 
 div#tswcontainer {
-  background-color: #e2edf7;
+ 
 }
 
 div#tswsideproper, div#tswothersideproper {
@@ -87,7 +90,15 @@ div#tswheader {
 
 div#tswfooter {
   color: black;
-  background-color: white;
+  background-color: powderblue;
+  position: fixed;
+  bottom: 0;
+  
+  max-height: 5%;
+  right: auto;
+  left: auto;
+  width: 100%;
+  border: 3px solid #2321ad;
 }
 
 #triangle {
