@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atticus &amp; Vlad calculator</title>
+    <script src="intro.js"></script>
+    <link rel="stylesheet" href="intro.css">
+    <link rel="stylesheet" type="text/css" media="all" href="../styles.css">
+    <link type="text/css" rel="stylesheet" href="../navbar.css">
+    <link rel = "stylesheet" href="calculator.css"> </link>
+</head>
+
+<body>
+    <div id="ugh">
+        <div id="topstuff">
+            <div id="tswheader"> <a href="../index.html"><img src="../images/IMG_20230602_163641185.jpg" alt=""
+                        title="boat"></a>
+                Howdy
+                <!-- end of header section: insert your logo, etc, above this line -->
+            </div>
+            <div id="banner">
+                <h1>Calculator </h1>
+            </div>
+        </div>
+        <div id="calc">
+            <input type="number" id="numone">
+            <input type="number" id="numtwo">
+            <br>
+            <br>
+        <span>
+            <button id="add" onclick="add()"> add</button>
+            <button id="subtract" onclick="subtract()"> subtract</button>
+            <button id="add" onclick="multiply()"> multiply</button>
+            <button id="subtract" onclick="devide()"> divide</button>
+            <button id="bang" onclick="bang()"> ! </button>
+            <button id="factor" onclick="factor()"> factor </button>
+            <br><br>
+            <label> Answer:</label>
+            <label><span id="result">21</span></label>
+            
+        </span>
+        
+        <br>
+        <p> History: </p>
+        <label><span id="history"></span></label>
+        
+        <script src="calculator.js">  </script>
+        </div>
+        <div id="tswsidecol" class="black">
+            <div id="tswsideproper">
+                <!-- start of side column: insert your navigation menu, etc, here -->
+                <div id="tswcssbuttons">
+                    <ul>
+                        <li><a href="../index.html">home</a></li>
+                        <li><a href="../construction.html">construction</a></li>
+                        <li><a href="../log.html">voyages</a></li>
+                        <li><a href="../otherstuff.html">other stuff</a></li>
+                    </ul>
+                </div>
+                <!-- end of side column: put your navigation menu, etc, above this line -->
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="tswfooter" class="black">
+            <!-- start of footer section: insert your copyright notice, etc, here -->
+            <p class="black">just a website<br>
+            </p>
+            <!-- end of footer section: insert your copyright notice, etc, above this line -->
+        </div>
+    </div>
+</body>
+
+</html>

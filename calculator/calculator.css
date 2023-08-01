@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+
+}
+div#calc{
+    float: right;
+  width: 80%;
+    color: rgb(236, 167, 76) !important;
+    font-weight: bolder;
+}
+#history{
+    font-weight: lighter;
+    color: rgb(230, 202, 44);
+}
+.black{
+    background-color: black !important;
+    color: rgb(250, 70, 70) !important;
+}
