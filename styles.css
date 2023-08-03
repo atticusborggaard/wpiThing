@@ -1,22 +1,32 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #e2edf7;
+  font-size: large;
 }
 .cent{
   display: block;
 margin-left: auto;
 margin-right: auto;
-width: 30%;
+
 text-align: center;
+
+}
+img.cent{
+  width: 20%;
+  border-radius: 15px;
 }
 .smol{
   width: 40%;
 }
 img {
   max-width: 100%;
-  /*width: auto;
-  height: auto;*
-  display: block; */
+  width: auto;
+  height: auto;
+  margin-left: auto;
+margin-right: auto;
+  display: block; 
+  width: 90%;
+  border-radius: 15px;
 }
 
 input, select, button, textarea {
@@ -27,13 +37,14 @@ meter, progress, output {
   max-width: 100%;
 }
 img.build{
-width: 60%
+width: 60%;
+border-radius: 15px;
 }
 div#tswsidecol {
   float: left;
   width: 20%;
   color: black;
-  background-color: #e2edf7;
+  /* background-color: #e2edf7; */
 }
 
 div#tswcontent {
@@ -72,13 +83,29 @@ h1{
   text-align: center;
 }
 div#banner {
-	border-radius: 5px;
+	border-radius: 15px;
   background-color: powderblue;
   width: 80%;
   padding-left:5%;
   padding-top: 0px;
 
   height: 150px;
+  float: right;
+}
+div#barbieBanner {
+	border-radius: 15px;
+  background-color: powderblue;
+  border-color: #010101;
+  border-style: solid;
+  border-width: 8px;
+  width: 100%;
+  background-image: url("pongGame/background.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  padding-top: 0px;
+
+  height: 250px;
   float: right;
 }
 div#tswheader {
@@ -90,10 +117,11 @@ div#tswheader {
 
 div#tswfooter {
   color: black;
-  background-color: powderblue;
+  background-color: rgba(165, 186, 189, 0.466);
   position: fixed;
+  text-align: center;
   bottom: 0;
-  
+  border-radius: 10px;
   max-height: 5%;
   right: auto;
   left: auto;

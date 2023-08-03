@@ -20,10 +20,11 @@
 
 #tswcssbuttons li a {
   color: black;
-  background-color: #99ccff;
+  /* background-color: #99ccff; */
   border: 1px outset blue;
   text-decoration: none;
   display: block;
+  border-radius: 5px;
 }
 
 #tswcssbuttons li a:hover {
@@ -79,11 +80,12 @@
 }
 #tswcsstabs li a {
 	color: #000000 ;
-	background-color: #99ccff ;
+	/* background-color: #99ccff ; */
 	border: 1px outset #0000ff ;
 	padding: 8px ;
 	text-decoration: none ;
 	display: inline ;
+  border-radius: 5px;
 }
 #tswcsstabs li a:hover {
 	color: #ffff00 ;

@@ -19,7 +19,8 @@ function noFrogs()
     const body = document.body;
     const mytext = document.getElementById("terrariam");
     mytext.innerHTML = ` `;
-    console.log("*takes your frogs*");
+    
+    alert("*takes your frogs*");
     
     body.style = `background-color: hotpink`;
 }

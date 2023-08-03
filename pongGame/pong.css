@@ -4,19 +4,28 @@ body {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-    color:white
+    color:white !important;
 }
 
 h1 {
     /* font-family: 'Courier New', Courier, monospace; */
     font-size: 60px;
 }
-
+#gameboard {
+    /* position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: auto;
+    margin-left: -250px; */
+}
 #scoreboard {
     font-size: 40px;
+    color:white !important;
     /* font-family: 'Courier New', Courier, monospace; */
 }
-
+.lable{
+    color: white;
+}
 #reset {
     cursor: pointer;
     border-radius: 15px;
@@ -29,6 +38,7 @@ h1 {
     src: url(barbie.ttf);
   }
 .barbie {
+    color:white !important;
     font-family: myFirstFont;
  }
  @font-face {
@@ -36,5 +46,6 @@ h1 {
     src: url(hiemer.otf);
   }
  .opp {
+    color:white !important;
     font-family: mySecondFont;
  }
